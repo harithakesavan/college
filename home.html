@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="./HOME.CSS">
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img  id="img1"src="./67425677-college-logo-design-template-vector-illustration-of-icon.webp"></a>   
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"><b>HOME</b></a>
+                  </li>
+                  
+                  <li class="nav-item dropdown active">
+                    <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      STUDENTS
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#"></a><B><button onclick="study()">STUDY MATERIALS</button></B></li>
+                      
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      PARENTS
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#"></a><B><button onclick="marklist()">MARKLIST</button></B></li>
+                      <li><a class="dropdown-item" href="#"></a><B><button onclick="fee()">FEE PAYMENT</button></B></li>
+                      <li><a class="dropdown-item" href="#"></a><B><button onclick="attend1()">ATTENDANCE</button></B></li>
+                      
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      FACULTY
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#"></a><B><button onclick="fac()">FACULTY DETAILS</button></B></li>
+                      <li><a class="dropdown-item" href="#"></a><B><button onclick="depart()">DEPARTMENTS</button></B></li>
+            
+                      
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      TRANSPORT
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#"></a><B><button onclick="bus()">BUS-ROUTE</button></B></li>
+                      <li><a class="dropdown-item" href="#"></a><B><button onclick="busfee()">BUS FEE PAY</button></B></li>
+                      
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      CANTEEN
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#"></a><B><button onclick="order()">FOOD ORDER</button></B></li>
+                      
+                      <li><a class="dropdown-item" href="#"></a><B><button onclick="work()">WORKERS DETAILS</button></B></li>
+                      
+                    </ul>
+                  </li>
+                  
+                </ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <button id ="btn" onclick="logout()">LOGOUT</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+
+                </form>
+                
+              </div>
+            </div>
+          </nav>
+      </nav>
+      
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./c1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./c2.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./c3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div><br><br><br><br><hr>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="./i4.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">INAGURATION</h5>
+              <p class="card-text">The MCC – MRF Innovation Park, established in Madras Christian College and funded by MRF Limited, is an ecosystem dedicated to fostering advanced research and innovative start-ups and nurturing entrepreneurs. The innovation park is to work in collaboration with different units in MCC, such as MCC Farm, Artisan and Heritage Village, Centre for Teaching and Learning, Centre for Data Analytics, Centre for Media Production, etc., to create the right ambience for the generation of innovative ideas and to enable start-ups..</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./i3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">INAGURATION</h5>
+              <p class="card-text">The MCC – MRF Innovation Park, established in Madras Christian College and funded by MRF Limited, is an ecosystem dedicated to fostering advanced research and innovative start-ups and nurturing entrepreneurs. The innovation park is to work in collaboration with different units in MCC, such as MCC Farm, Artisan and Heritage Village, Centre for Teaching and Learning, Centre for Data Analytics, Centre for Media Production, etc., to create the right ambience for the generation of innovative ideas and to enable start-ups.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./i2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">INAGURATION</h5>
+              <p class="card-text">The MCC – MRF Innovation Park, established in Madras Christian College and funded by MRF Limited, is an ecosystem dedicated to fostering advanced research and innovative start-ups and nurturing entrepreneurs. The innovation park is to work in collaboration with different units in MCC, such as MCC Farm, Artisan and Heritage Village, Centre for Teaching and Learning, Centre for Data Analytics, Centre for Media Production, etc., to create the right ambience for the generation of innovative ideas and to enable start-ups.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+      </div><hr>
+    <center><iframe width="683" height="384" src="https://www.youtube.com/embed/a6VxiKDeqQc" title="How to Create a Successful College Application Video | CEA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </center>
+    <center>
+    <footer class="footer" >
+      <div class="container">
+          <div class="footer-logo"><a href="#"><img  id ="img1"src="./67425677-college-logo-design-template-vector-illustration-of-icon.webp"alt=""></a></div>
+          <span class="copyright">Copyright © 2016 | <a href="#">college</a></span>
+      </div>
+      <!-- 
+          All links in the footer should remain intact. 
+          Licenseing information is available at: http://bootstraptaste.com/license/
+          You can buy this theme without footer links online at: http://bootstraptaste.com/buy/?theme=Knight
+      -->
+  </footer>
+</center>
+  
+    </body>
+    <script src="./college.js"></script>
+</html>
